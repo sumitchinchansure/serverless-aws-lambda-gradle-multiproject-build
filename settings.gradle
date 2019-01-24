@@ -1,0 +1,3 @@
+
+include ":function2",":function1"
+project(':function2').projectDir = new File('./src/main/java/com/serverless/functions/function2/')
